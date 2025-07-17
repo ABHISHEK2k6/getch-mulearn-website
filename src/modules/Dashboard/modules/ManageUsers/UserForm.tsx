@@ -394,7 +394,7 @@ const UserForm = forwardRef(
                             <input
                                 type="tel"
                                 name="mobile"
-                                placeholder="Mobile (Optional)"
+                                placeholder="Mobile"
                                 value={data.mobile || ""}
                                 onChange={handleChange}
                                 maxLength={10}
